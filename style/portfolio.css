@@ -1,0 +1,145 @@
+
+.open-sans-font{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+/* shared style */
+.primary-color{
+    color: #FD6E0A;
+}
+.dark-2{
+   color: #474747;
+}
+.btn-primary{
+  background-color: #FD6E0A;
+  font-weight: bold;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+/* share style end */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px ;
+}
+nav li a{
+    text-decoration: none; 
+    font-size: 20px;
+}
+/* banner style */
+.banner{
+ display: flex;
+ justify-content: space-between;
+ margin: 0 35px 0 200px ;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-gritting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-titel{
+    font-weight: bold;
+    font-size:85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+/* main style */
+main{
+    margin: 20px 230px 10px 230px;
+    /* border: 10px solid red; */
+    height: 100vh;
+}
+
+.about-section{
+    padding: 200px;
+    width: auto;
+    height: auto;
+    background-color: #FFF8F3;
+}
+.about-header{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.about-description{
+    font: 18px;
+   color: #474747;
+}
+.about-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* what section start here */
+.what-section{
+    padding: 10px 200px 10px 200px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+/* card section start here */
+.card-container{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+.card {
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    background-color: #f9f9f9; 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    
+}
+.card-header{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-text{
+    font-size: 16px;
+}
+/* summery resume start here */
+.summery-resume{
+  display: flex;
+  justify-content: space-around;
+}
+.education-qualification,.experience{
+    width: 511px;
+    padding-bottom: 20px;
+}
+#download-cv-btn{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+/* footer start here */
+footer{
+    background-color: #FFF8F3;
+}

@@ -1,19 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <!-- google font link start here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link end here -->
+    <link rel="stylesheet" href="style/portfolio.css" />
+  </head>
+  <body class="open-sans-font">
+    <header class="header">
+      <nav>
+        <h3 class="nav-title">Ma<spna class="primary-color">r</spna>y</h3>
+        <ul>
+          <li><a class="dark-2" href="">Portfolio</a></li>
+          <li><a class="dark-2" href="">Blog</a></li>
+          <li>
+            <a class="dark-2" href=""
+              ><button class="btn-primary">Hire Me</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="banner-content">
+          <h4 class="banner-gritting dark-2">Hi, I am</h4>
+          <br />
+          <h1 class="banner-titel">Mary Hardy</h1>
+          <p class="banner-description">
+            Shot what able cold new see hold.Friendly as an betrayed formerly
+            he. Morning because as to society behaved moments.
+          </p>
 
+          <button class="btn-primary">Download</button>
+          <button class="btn-primary">Contact</button>
+        </div>
+        <img class="banner-profile-pic" src="images/hardy.png" alt="" />
+      </div>
     </header>
     <main>
-
+      <div class="about-section">
+        <h3 class="about-header">About Me</h3>
+        <p class="about-description">
+          I, m a designer & developer with a passion for web design. I enjoy
+          developing simple, clean and slick websites that provide real value to
+          the end user. Thousands of clients have procured exceptional resulfs
+          while working with me. Delivering work within time and budget which
+          meets clients requirements in our mata
+        </p>
+        <div class="about-info">
+          <div>
+            <p>Name:</p>
+            <h4>Marry Hardy</h4>
+          </div>
+          <div>
+            <p>Email:</p>
+            <h4>info@gmail.com</h4>
+          </div>
+          <div>
+            <p>Date of birth:</p>
+            <h4>11 November 1987</h4>
+          </div>
+          <div>
+            <p>From:</p>
+            <h4>Los Angeles, USA</h4>
+          </div>
+        </div>
+      </div>
+      <!-- what i do section start here -->
+      <div class="what-section">
+        <h3 class="about-header">What I do</h3>
+        <p class="what-section-description">
+          I have more than 10 years experience building software for clients all
+          over the world. Below is a quick <br />
+          overview of my main technical skill sets and technologies i use. Want
+          to find out more about my experience?<br />
+          Check out my online resume and project portfolio
+        </p>
+      </div>
+      <!-- what i do section end here -->
+      <!-- card section start here -->
+      <div class="card-container">
+        <div class="card">
+          <img src="images/icons/js.png" alt="" />
+          <h5 class="card-header">Vanilla JavaScript</h5>
+          <p class="card-text">
+            Vanilla JavaScript refers to plain JavaScript without any additional
+            libraries or frameworks. It is used for building interactive and
+            dynamic web applications directly in the browser.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/icons/react.png" alt="" />
+          <h5 class="card-header">React</h5>
+          <p class="card-text">
+            React is a popular JavaScript library for building user interfaces,
+            particularly single-page applications. It allows developers to
+            create reusable UI components and manage state efficiently.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/icons/nodejs.png" alt="" />
+          <h5 class="card-header">Node.js</h5>
+          <p class="card-text">
+            Node.js is a runtime environment that allows you to run JavaScript
+            on the server side. It is commonly used for building scalable and
+            high-performance backend services and APIs.
+          </p>
+        </div>
+        <div class="card">
+          <img src="images/icons/mongo.png" alt="" />
+          <h5 class="card-header">MongoDB</h5>
+          <p class="card-text">
+            MongoDB is a NoSQL database that stores data in flexible, JSON-like
+            documents. It is widely used for modern web applications due to its
+            scalability and ease of use.
+          </p>
+        </div>
+      </div>
+      <!-- card section end here -->
+      <!-- A summary of My Resume start here -->
+      <h3 class="about-header">A Summary of My Resume</h3>
+      <div class="summery-resume">
+        <div class="education-container">
+          <div class="education-qualification">
+            <h3>My Education</h3>
+            <h4>Master of Science in Computer Engineering</h4>
+            <h6>Harvard University / 2015 - 2017</h6>
+            <p>
+              Specialized in advanced algorithms, machine learning, and
+              distributed systems. Completed a thesis on optimizing neural
+              networks for real-time applications.
+            </p>
+            <hr />
+          </div>
+          <div class="education-qualification">
+            <h4>Bachelor of Science in Computer Science</h4>
+            <h6>Stanford University / 2011 - 2015</h6>
+            <p>
+              Focused on foundational computer science principles, data
+              structures, and web development. Participated in multiple
+              hackathons and collaborative projects.
+            </p>
+            <hr />
+          </div>
+          <div class="education-qualification">
+            <h4>Certified Cloud Solutions Architect</h4>
+            <h6>AWS / 2018</h6>
+            <p>
+              Gained expertise in cloud infrastructure, deployment, and
+              management using AWS services. Designed scalable and secure
+              cloud-based solutions for enterprise applications.
+            </p>
+          </div>
+        </div>
+        <!-- Experience -->
+        <div class="experience-container">
+          <div class="experience">
+            <h3>My Experience</h3>
+            <h4>Senior Frontend Developer</h4>
+            <h6>Apple Inc / 2020 - Present</h6>
+            <p>
+              Lead the development of user-facing features for Apple's flagship
+              applications. Collaborated with cross-functional teams to deliver
+              high-performance, responsive designs.
+            </p>
+            <hr />
+          </div>
+          <div class="experience">
+            <h4>Software Engineer</h4>
+            <h6>Google / 2017 - 2020</h6>
+            <p>
+              Contributed to the development of Google's search algorithms and
+              ad platforms. Optimized backend systems for scalability and
+              efficiency.
+            </p>
+            <hr />
+          </div>
+          <div class="experience">
+            <h4>Junior Developer</h4>
+            <h6>Microsoft / 2015 - 2017</h6>
+            <p>
+              Worked on the Azure cloud platform, developing tools for DevOps
+              and automation. Gained hands-on experience with CI/CD pipelines
+              and containerization.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button id="download-cv-btn" class="btn-primary">Download CV</button>
+      <!-- A summary of My Resume end here -->
     </main>
+
+    
     <footer>
-        
+         <div class="connect">
+             <h3>Lets Connect</h3>
+             <p>Please fill out the form on this section to contact with me or call between
+              9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+         </div>
+         <div class="message">
+
+         </div>
     </footer>
-</body>
+  </body>
 </html>
