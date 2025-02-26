@@ -1,4 +1,9 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 .open-sans-font{
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -73,7 +78,7 @@ nav li a{
 main{
     margin: 20px 230px 10px 230px;
     /* border: 10px solid red; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .about-section{
@@ -140,6 +145,83 @@ main{
     text-align: center;
 }
 /* footer start here */
-footer{
+/* Footer Styles */
+footer {
     background-color: #FFF8F3;
+    padding: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;  /* Makes it responsive */
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+
+/* Connect Section */
+.connect {
+    width: 45%;
+    max-width: 500px;
+}
+
+.connect h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.connect p {
+    font-size: 16px;
+    color: #474747;
+}
+
+/* Message Section */
+.message {
+    width: 45%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.message input,
+.message textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.message textarea {
+    height: 100px;
+    resize: none;
+}
+
+.message .btn-primary {
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+    }
+
+    .connect, .message {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .message .btn-primary {
+        width: auto;
+    }
 }
